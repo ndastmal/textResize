@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Resize Text Plug-in</title>
+    <link rel="stylesheet" type="text/css" href="css/dapper.css" />
+    <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <script src="js/resizeText.js"></script>
+    <script type="text/javascript">
+
+        $(function(){
+            $("body").sizeText();
+        });
+        
+    </script>
+    <style type="text/css" >        
+        
+		input[type="button"].sizeText {
+			width: 2em;
+			display: inline-block;
+			font-size: 1em;
+			margin: 5px;
+		}
+		
+    </style>
+</head>
+<body>
+
+   <h1><span class="resizeText">Resize</span> Text</h1>
+   
+   <input type="button" class="increaseText sizeText" value="A+" />
+   <input type="button" class="originalText sizeText" value="A" />
+   <input type="button" class="decreaseText sizeText" value="A-" />
+   
+   <p class="resizeText">
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit vero a ea doloribus porro, soluta animi? Illum ipsa doloremque quas perferendis quia maiores architecto obcaecati, omnis facere. Sunt quisquam beatae, doloribus asperiores similique soluta dicta maxime tenetur harum pariatur, iusto optio mollitia, commodi nostrum, voluptatibus facilis corporis vero fugit nemo est corrupti fuga. Possimus exercitationem eligendi nisi unde perspiciatis commodi minus aliquam dolores magnam mollitia officiis et corporis ratione nam est, distinctio cupiditate! Deleniti impedit sint, nobis dicta reiciendis laudantium doloribus eius, esse minima dolorum ratione eaque? Voluptatibus et similique, ratione labore, reiciendis perferendis beatae ullam doloribus optio vel quibusdam officiis doloremque laudantium? Quis consequatur quisquam quaerat provident recusandae odit expedita esse numquam temporibus ducimus cum molestiae molestias eveniet nisi totam rerum veritatis, laborum laudantium corporis architecto. Accusamus quisquam voluptate odit magni dolorem quibusdam, ullam veniam cumque officiis ea totam voluptas quas, alias eos.</p> 
+       
+
+       <p>Magnam possimus repellat, commodi, aspernatur optio consequuntur iusto atque delectus voluptatibus mollitia quo natus harum, eos cupiditate nostrum sapiente tempore provident iste nulla odit animi facere dolor! Tenetur deserunt commodi perspiciatis, doloribus ad nam a porro error dolores quidem eligendi autem rem illum quas nobis, eum doloremque.
+       </p>
+ 
+       <p>Magnam possimus repellat, commodi, aspernatur optio consequuntur iusto atque delectus voluptatibus mollitia quo natus harum, eos cupiditate nostrum sapiente tempore provident iste nulla odit animi facere dolor! Tenetur deserunt commodi perspiciatis, doloribus ad nam a porro error dolores quidem eligendi autem rem illum quas nobis, eum doloremque.
+       </p>
+   
+   
+    <abbr>idk what this does</abbr>
+    <ol>
+        <li>one
+            <ul>
+                <li class="resizeText">two</li>
+                <li>two</li>
+                <li>two
+                    <ol>
+                        <li class="resizeText">three</li>
+                        <li>three</li>
+                        <li>three</li>
+                        <li>three
+                            <ol>
+                                <li>four</li>
+                                <li>four</li>
+                                <li>four</li>
+                                <li>four</li>
+                            </ol>
+                    </li>
+                    </ol>
+                </li>
+                <li>two</li>
+            </ul>
+        </li>
+        <li>one</li>
+        <li>one</li>
+        <li>one</li>
+    </ol>
+</body>
+</html>
